@@ -19,7 +19,7 @@ public class TwoSum {
     /**
      * 暴力法
      * 时间复杂度 O(n^2)
-     * 空间复杂度 O(n^2)
+     * 空间复杂度 O(1)
      * @param nums
      * @param target
      * @return
