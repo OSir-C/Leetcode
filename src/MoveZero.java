@@ -9,7 +9,8 @@ public class MoveZero {
 
     /**
      * 双指针法
-     * 时间复杂度
+     * 时间复杂度O(N)
+     * 空间复杂度O(1)
      * @param nums
      * @return
      */
@@ -40,7 +41,7 @@ public class MoveZero {
             if (nums[cur] != 0) {
                 int tmp = nums[cur];
                 nums[cur] = nums[last];
-                nums[last] = tmp;
+                nums[last++] = tmp;
             }
         }
     }
