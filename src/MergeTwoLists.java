@@ -38,7 +38,7 @@ public class MergeTwoLists {
      * @return
      */
     public static ListNode solution2(ListNode l1, ListNode l2) {
-        ListNode head = new ListNode();
+        ListNode head = new ListNode(-1);
         ListNode prev = head;
 
         while (l1.next != null && l2.next != null) {

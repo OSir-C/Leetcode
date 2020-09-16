@@ -19,10 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e013fc99-544a-47d6-9112-663bb84bf8be" name="Default Changelist" comment="add">
+    <list default="true" id="e013fc99-544a-47d6-9112-663bb84bf8be" name="Default Changelist" comment="fix bug">
       <change afterPath="$PROJECT_DIR$/src/GroupAnagram.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MoveZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MoveZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ListNode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MergeTwoLists.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MergeTwoLists.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReverseLikedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReverseLikedList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +101,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.GroupAnagram" />
@@ -130,7 +143,8 @@
       <workItem from="1599915415895" duration="1196000" />
       <workItem from="1599917089454" duration="2165000" />
       <workItem from="1600068051844" duration="3254000" />
-      <workItem from="1600088221214" duration="276000" />
+      <workItem from="1600088221214" duration="714000" />
+      <workItem from="1600175650977" duration="1844000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1598364246255</created>
@@ -167,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599915486521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix bug">
+      <created>1600088754270</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600088754271</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,7 +211,8 @@
     <MESSAGE value="verion1" />
     <MESSAGE value="version1" />
     <MESSAGE value="add" />
-    <option name="LAST_COMMIT_MESSAGE" value="add" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="111" y="23" key="#Project_Structure" timestamp="1598365183428">
@@ -245,10 +267,11 @@
       <screen x="0" y="23" width="1247" height="777" />
     </state>
     <state x="162" y="50" key="SettingsEditor/0.23.1247.777/-269.-1057.1920.1057@0.23.1247.777" timestamp="1598365052991" />
-    <state x="74" y="-902" key="Vcs.Push.Dialog.v2" timestamp="1599917235247">
-      <screen x="-269" y="-1080" width="1920" height="1080" />
+    <state x="229" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600088756886">
+      <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="74" y="-902" key="Vcs.Push.Dialog.v2/0.0.1280.800/-269.-1080.1920.1080@-269.-1080.1920.1080" timestamp="1599917235247" />
+    <state x="229" y="132" key="Vcs.Push.Dialog.v2/0.0.1280.800/-269.-1080.1920.1080@0.0.1280.800" timestamp="1600088756886" />
     <state x="223" y="151" key="Vcs.Push.Dialog.v2/0.23.1247.777/-269.-1057.1920.1057@0.23.1247.777" timestamp="1598365285272" />
     <state x="425" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598855107271">
       <screen x="0" y="0" width="1280" height="800" />
