@@ -1,4 +1,5 @@
 import java.util.HashSet;
+import java.util.List;
 import java.util.Set;
 
 /**
@@ -33,21 +34,31 @@ public class CycleLinkedList2 {
     }
 
     /**
-     * solution2的第一步：判断是否有环，并返回相遇的节点
-     * @return
-     */
-    public static ListNode getIntersect(ListNode head) {
-        return null;
-    }
-
-    /**
-     *  迭代法
-     *  时间复杂度O(N)
-     *  空间复杂度O(1)
+     * 快慢指针
+     * 时间复杂度 O(N)
+     * 空间复杂度 O(1)
      * @param head
      * @return
      */
     public ListNode solution2(ListNode head) {
-        return null;
+        if (head == null || head.next == null) return null;
+
+        ListNode fast = head, slow = head;
+        while (true) {
+            if (fast == null || fast.next == null) return null; // 非有环链表
+
+            fast = fast.next.next;
+            slow = slow.next;
+
+            if (fast == slow) break; // 在环内相遇
+        }
+
+        fast = head;
+        while (fast != slow) {
+            fast = fast.next;
+            slow = slow.next;
+        }
+
+        return fast;
     }
 }
