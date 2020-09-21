@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e013fc99-544a-47d6-9112-663bb84bf8be" name="Default Changelist" comment="fix bug">
-      <change afterPath="$PROJECT_DIR$/src/GroupAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SwapPairs.java" afterDir="false" />
+    <list default="true" id="e013fc99-544a-47d6-9112-663bb84bf8be" name="Default Changelist" comment="阶段性提交">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/CycleLinkedList2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/CycleLinkedList2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RotateArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RotateArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +57,9 @@
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src" />
       <recent name="$PROJECT_DIR$" />
@@ -137,6 +138,10 @@
       <workItem from="1600241206365" duration="10000" />
       <workItem from="1600245147669" duration="1890000" />
       <workItem from="1600339368414" duration="1587000" />
+      <workItem from="1600657138304" duration="76000" />
+      <workItem from="1600672234849" duration="27000" />
+      <workItem from="1600673702495" duration="404000" />
+      <workItem from="1600693311989" duration="243000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1598364246255</created>
@@ -187,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600222165074</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="阶段性提交">
+      <created>1600657191623</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1600657191623</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,7 +223,8 @@
     <MESSAGE value="version1" />
     <MESSAGE value="add" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="阶段性提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="阶段性提交" />
   </component>
   <component name="WindowStateProjectService">
     <state x="111" y="23" key="#Project_Structure" timestamp="1598365183428">
@@ -266,12 +279,12 @@
       <screen x="0" y="23" width="1247" height="777" />
     </state>
     <state x="162" y="50" key="SettingsEditor/0.23.1247.777/-269.-1057.1920.1057@0.23.1247.777" timestamp="1598365052991" />
-    <state x="229" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600222167172">
+    <state x="229" y="132" key="Vcs.Push.Dialog.v2" timestamp="1600672256864">
       <screen x="0" y="0" width="1280" height="800" />
     </state>
     <state x="74" y="-902" key="Vcs.Push.Dialog.v2/0.0.1280.800/-269.-1080.1920.1080@-269.-1080.1920.1080" timestamp="1599917235247" />
-    <state x="229" y="132" key="Vcs.Push.Dialog.v2/0.0.1280.800/-269.-1080.1920.1080@0.0.1280.800" timestamp="1600088756886" />
-    <state x="229" y="132" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1600222167172" />
+    <state x="229" y="132" key="Vcs.Push.Dialog.v2/0.0.1280.800/-269.-1080.1920.1080@0.0.1280.800" timestamp="1600657193650" />
+    <state x="229" y="132" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1600672256864" />
     <state x="223" y="151" key="Vcs.Push.Dialog.v2/0.23.1247.777/-269.-1057.1920.1057@0.23.1247.777" timestamp="1598365285272" />
     <state x="425" y="321" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1598855107271">
       <screen x="0" y="0" width="1280" height="800" />
