@@ -12,6 +12,8 @@ public class RotateArray {
 
     /**
      * 暴力解法
+     * 时间复杂度 O(k * N)
+     * 空间复杂度 O(1)
      * @param nums
      * @param k
      */
@@ -30,6 +32,8 @@ public class RotateArray {
 
     /**
      * 三次反转法
+     * 时间复杂度 O(N)
+     * 空间复杂度 O(1)
      * @param nums
      * @param k
      */
@@ -60,29 +64,28 @@ public class RotateArray {
     }
 
     /**
-     * 环状替代法
+     * 一次性移动到位
+     * 时间复杂度 O(N)
+     * 空间复杂度 O(1)
      * @param nums
      * @param k
      */
     public static void solution3(int[] nums, int k) {
         int len = nums.length;
-        int count = 0;
-        k = k % len;
+        k = k % len; // 实际要移动的步数
+        int count = 0; // 记录总的移动步数
 
-        for (int start_key = 0; count < k; start_key ++) {
+        for (int start_key = 0; count < len; start_key++) {
             int current_key = start_key;
-            int current_value = nums[current_key];
+            int current_val = nums[current_key];
+
             do {
-                int next_key = (current_key + k) % len; // 当前元素要移动到的下一个位置
-                int temp_value = nums[next_key]; // 缓存下来要被替代元素的值
-                nums[next_key] = current_value; // 用current_key的值替代要移动到的位置的值
-                current_key = next_key; // 移动current_key到新的位置，判断该位置原来的元素要移动到的位置
-                current_value = temp_value; // 新的current_value变为被替换下来的值,为下一轮替换做好准备
+                int next_key = (current_key + k) % len;
+                int tmp_val = nums[next_key];
+                nums[next_key] = current_val;
+                current_key = next_key;
+                current_val = tmp_val;
                 count++;
-                for (int m = 0; m < nums.length; m++) {
-                    System.out.print(nums[m] + ",");
-                }
-                System.out.println(" ");
             } while (start_key != current_key);
         }
     }
